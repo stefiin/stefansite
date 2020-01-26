@@ -26,7 +26,9 @@ SECRET_KEY = '!u)yac(cx92fk9p19t_lr6lip52%iyv^nd3#z*a41w$x=0)^gy'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'localhost'
+    'localhost',
+    'stefandusciuc.appspot.com',
+    'stefandusciuc.me',
 ]
 
 
@@ -41,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
@@ -120,5 +123,5 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
-
+STATIC_ROOT = BASE_DIR+'/static/'
 STATIC_URL = '/static/'

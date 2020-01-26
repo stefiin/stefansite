@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Atomictech</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	{% load static %}
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="{% static 'css/animate.css' %}">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="{% static 'css/icomoon.css' %}">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="{% static 'css/flexslider.css' %}">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+	<link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
+
+	<link rel="stylesheet" href="{%static 'css/style.css' %}">
+
+
+	<!-- Modernizr JS -->
+	<script src="{% static 'js/modernizr-2.6.2.min.js' %}"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	</head>
+	<body>
+
+	<nav id="colorlib-main-nav" role="navigation">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
+		<div class="js-fullheight colorlib-table">
+			<div class="colorlib-table-cell js-fullheight">
+				<ul>
+					<li><a href="/home">Home</a></li>
+					<li><a href="https://drive.google.com/file/d/16S5cpeoykfh5jpc-JzyrP7ZEdAzbW8XG/view?usp=sharing" target="_blank">Resume</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<div id="colorlib-page">
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="colorlib-navbar-brand">
+							<a class="colorlib-logo" href="/home">Stefan Dusciuc</a>
+						</div>
+						<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<aside id="colorlib-hero">
+			<div class="flexslider">
+				<ul class="slides">
+				<li style="background-color: black;">   
+					<!--li style="background-image: background-image: url({% static 'images/work-1.jpg' %});"-->
+			   		<div class="overlay"></div>
+			   		<div class="container">
+			   			<div class="row">
+				   			<div class="col-md-8 col-sm-12 col-xs-12 col-md-offset-2 text-center slider-text">
+				   				<div class="slider-text-inner">
+				   					<h2>Scroll Down</h2>
+				   					<h1>Experience</h1>
+				   				</div>
+				   			</div>
+				   		</div>
+			   		</div>
+			   	</li>
+			  	</ul>
+		  	</div>
+		</aside>
+		<div id="colorlib-work">
+			<div class="container">
+				<div class="row row-padded-bottom">
+					<div class="col-md-7 animate-box">
+						<img class="img-responsive" src="{% static 'images/work-2.jpg' %}" alt="work">
+					</div>
+					<div class="col-md-4 col-md-push-1 animate-box">
+						<div class="work-detail">
+							<p class="tag"><span>Founder, Consultant</span>, <span>2019-Present</span></p>
+							<h2>Atomictech.ca</h2>
+							<p>
+                                Following my internship at IBM, I used the skills I learned to start a business as a way to gain further experience and continue to learn. Our main service is to build and deploy responsive modern web apps for businesses. We also provide general technical consulting to businesses seeking ways to leverage technology and the internet. 
+
+                            </p>
+                            <p>Some examples of projects that we have worked on are below.</p> 
+							<p>
+                                <a href="https://atomictech.ca" target="_blank">Atomictech</a>
+                            </p>
+							<p>
+                                <a href="https://healthbound.ca" target="_blank">Healthbound</a>
+                            </p>
+                            <p>
+                                <a href="https://e-tec.ca" target="_blank">E-tec</a>
+                            </p>
+							<p><a href="https://drive.google.com/file/d/16S5cpeoykfh5jpc-JzyrP7ZEdAzbW8XG/view?usp=sharing" target="_blank" class="btn btn-primary">View my resume</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h2>Related Works</h2>
+					</div>
+					<div class="col-md-6 animate-box text-center">
+						<a href="/etec" class="work-img" style="background-image: url({% static 'images/homepage.png' %});">
+							<div class="overlay"></div>
+							<div class="desc">
+								<p class="tag"><span>Web App Consultant</span></p>
+								<h3>E-tec.ca</h3>
+								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 animate-box text-center">
+						<a href="/laneway" class="work-img" style="background-image: url({% static 'images/sketch.png' %});">
+							<div class="overlay"></div>
+							<div class="desc">
+								<p class="tag"><span>Engineering Student Consultant</span></p>
+								<h3>The Palmerston Laneway Project</h3>
+								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="colorlib-hire" class="colorlib-light-grey">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box">
+						<h2 class="heading">Are you looking to hire me?</h2>
+						<p><a href="https://drive.google.com/file/d/16S5cpeoykfh5jpc-JzyrP7ZEdAzbW8XG/view?usp=sharing" target="_blank" class="btn btn-primary btn-learn">View my resume</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+                <div id="footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 col-pb-sm">
+                                <div class="row">
+                                    <div class="col-md-10">
+                                        <h2>Stefan Dusciuc</h2>
+                                        <p>Thanks for visiting</p>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <p>Toronto, Ontario</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-pb-sm">
+                                <h2>Newsletter</h2>
+                                <p>Subscribe to future posts</p>
+                                <div class="subscribe text-center">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control text-center" placeholder="Enter Email address">
+                                        <input type="submit" value="Subscribe" class="btn btn-primary btn-custom">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-pb-sm right-display">
+                                <h2>Connect</h2>
+                                <p class="colorlib-social-icons colorlib-social-icons2">
+                                    <a href="https://www.linkedin.com/in/stefan-dusciuc/" target="_blank"><i class="icon-linkedin4"></i></a>
+                                </p>
+                                <p>
+                                    <span class="block"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart2" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --><br></span> 
+                                    <span class="block">Demo Images: <a href="http://nothingtochance.co/" target="_blank">nothingtochance.co</a> <a href="http://unsplash.co/" target="_blank">Unsplash</a></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+	
+	</div>
+
+	<!-- jQuery -->
+	<script src="{% static 'js/jquery.min.js' %}"></script>
+	<!-- jQuery Easing -->
+	<script src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+	<!-- Bootstrap -->
+	<script src="{% static 'js/bootstrap.min.js' %}"></script>
+	<!-- Waypoints -->
+	<script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+	<!-- Flexslider -->
+	<script src="{% static 'js/jquery.flexslider-min.js' %}"></script>
+	<!-- Counters -->
+	<script src="{% static 'js/jquery.countTo.js' %}"></script>
+	<!-- Owl Carousel -->
+	<script src="{% static 'js/owl.carousel.min.js' %}"></script>
+
+	<!-- Main JS (Do not remove) -->
+	<script src="{% static 'js/main.js' %}"></script>
+	</body>
+</html>
+

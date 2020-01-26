@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Suitcase Template</title>
+	<title>Stefan Dusciuc</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -55,12 +55,8 @@
 		<div class="js-fullheight colorlib-table">
 			<div class="colorlib-table-cell js-fullheight">
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="work.html">Work</a></li>
-					<li><a href="services.html">Services</a></li>
-					<li><a href="blog.html">Case Studies</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="/home">Home</a></li>
+					<li><a href="https://drive.google.com/file/d/16S5cpeoykfh5jpc-JzyrP7ZEdAzbW8XG/view?usp=sharing" target="_blank">Resume</a></li>
 				</ul>
 			</div>
 		</div>
@@ -72,7 +68,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="colorlib-navbar-brand">
-							<a class="colorlib-logo" href="index.html">Stefan Dusciuc</a>
+							<a class="colorlib-logo" href="/home">Stefan Dusciuc</a>
 						</div>
 						<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
 					</div>
@@ -83,7 +79,6 @@
 			<div class="flexslider">
 				<ul class="slides">
 				<li style="background-color: black;">
-			   	<!--li style="background-image: url({% static 'images/img_bg_1.jpg' %});"-->
 			   		<div class="overlay"></div>
 			   		<div class="container">
 			   			<div class="row">
@@ -91,45 +86,90 @@
 				   				<div class="slider-text-inner">
 				   					<h2>Welcome &amp; Enjoy</h2>
 				   					<h1>Hello! I'm Stefan, an engineer from Toronto</h1>
-										<p><a class="btn btn-primary btn-learn">Available For Hire!</a></p>
-				   				</div>
+										<p><a href="#colorlib-workexperience" class="btn btn-primary btn-learn">View my experience</a>
+										</p>
+										<h2>Connect</h2>
+										<p class="colorlib-social-icons colorlib-social-icons2">
+											<a href="https://www.linkedin.com/in/stefan-dusciuc/" target="_blank"> <i class="icon-linkedin4"></i></a>
+										</p>
+								</div>
 				   			</div>
 				   		</div>
-			   		</div>
+					</div>   
 				</li>
-				<li style="background-color: black;">
-			   	<!--li style="background-image: url({% static 'images/img_bg_2.jpg' %});"-->
-			   		<div class="overlay"></div>
-			   		<div class="container">
-			   			<div class="row">
-				   			<div class="col-md-8 col-sm-12 col-md-offset-2 col-md-pull-2 slider-text">
-				   				<div class="slider-text-inner">
-				   					<h2>Building Site</h2>
-				   					<h1>We Build Modern &amp; Functional Website</h1>
-										<p><a class="btn btn-primary btn-learn">Available For Hire!</a></p>
-				   				</div>
-				   			</div>
-				   		</div>
-			   		</div>
-				</li>
+				
 				<li style="background-color: black;"> 
-			   	<!--li style="background-image: url({% static 'images/img_bg_3.jpg' %});"-->
 			   		<div class="overlay"></div>
 			   		<div class="container">
 			   			<div class="row">
 				   			<div class="col-md-8 col-sm-12 col-md-offset-2 col-md-pull-2 slider-text">
 				   				<div class="slider-text-inner">
-				   					<h2>Work</h2>
-				   					<h1>Handcrafted Design For The Digital World</h1>
-										<p><a class="btn btn-primary btn-learn">Available For Hire!</a></p>
+				   					<h2>UX Focused</h2>
+				   					<h1>Designing for humans first</h1>
+									   <p><a href="#colorlib-workux" class="btn btn-primary btn-learn">View my UX portfolio</a>
+									   </p>
+									   <h2>Connect</h2>
+									   <p class="colorlib-social-icons colorlib-social-icons2">
+										   <a href="https://www.linkedin.com/in/stefan-dusciuc/" target="_blank"> <i class="icon-linkedin4"></i></a>
+									   </p>
 				   				</div>
 				   			</div>
 				   		</div>
 			   		</div>
-			   	</li>
+				</li>
+
+				<li style="background-color: black;">
+						<div class="overlay"></div>
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-sm-12 col-md-offset-2 col-md-pull-2 slider-text">
+									<div class="slider-text-inner">
+										<h2>Data Driven</h2>
+										<h1>Applying modern analytics</h1>
+										<p><a href="#colorlib-workml" class="btn btn-primary btn-learn">View my data analytics portfolio</a>
+										</p>
+										<h2>Connect</h2>
+										<p class="colorlib-social-icons colorlib-social-icons2">
+											<a href="https://www.linkedin.com/in/stefan-dusciuc/" target="_blank"> <i class="icon-linkedin4"></i></a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+				</li>
 			  	</ul>
 		  	</div>
 		</aside>
+
+		<div id="colorlib-testimony" class="colorlib-light-grey">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center animate-box intro-heading">
+						<h2>Who am I</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="row animate-box">							
+							<div class="item">
+								<div class="testimony-slide text-center active">
+									<figure>
+										<img src="{% static 'images/stef.png' %}" alt="user">
+									</figure>
+									<blockquote>
+										<p><i class="icon-quotes-left"></i> I am a recent graduate of the University of Toronto Industrial Engineering program with a background in data analysis, UX design, and software programming looking for a full-time opportunity in the innovative technology space.</p>
+										<span>Stefan Dusciuc</span>
+									</blockquote>
+									<p><a href="https://drive.google.com/file/d/16S5cpeoykfh5jpc-JzyrP7ZEdAzbW8XG/view?usp=sharing" target="_blank" class="btn btn-primary btn-learn">View my resume</a>
+									</p>
+								</div>
+							</div>							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<div id="colorlib-services">
 			<div class="container">
 				<div class="row">
@@ -142,8 +182,8 @@
 						<div class="services">
 							<span class="icon"><i class="icon-pen3"></i></span>
 							<div class="desc">
-								<h3>Web Design</h3>
-								<p>Separated they live in Bookmarksgrove right at the coast</p>
+								<h3>Programming</h3>
+								<p>Applicable skills working with Python, Matlab, SQL, JS, HTML, CSS, Java, C</p>
 							</div>
 						</div>
 					</div>
@@ -152,7 +192,7 @@
 							<span class="icon"><i class="icon-diamond"></i></span>
 							<div class="desc">
 								<h3>Web Development</h3>
-								<p>Separated they live in Bookmarksgrove right at the coast</p>
+								<p>Full stack experience building and deploying MVP web apps in Django and Google Cloud</p>
 							</div>
 						</div>
 					</div>
@@ -160,8 +200,8 @@
 						<div class="services">
 							<span class="icon"><i class="icon-paperplane"></i></span>
 							<div class="desc">
-								<h3>Help &amp; Support</h3>
-								<p>Separated they live in Bookmarksgrove right at the coast</p>
+								<h3>Sports</h3>
+								<p>Love for playing, watching, and analysing all types of sports</p>
 							</div>
 						</div>
 					</div>
@@ -171,8 +211,8 @@
 						<div class="services">
 							<span class="icon"><i class="icon-params"></i></span>
 							<div class="desc">
-								<h3>Marketing</h3>
-								<p>Separated they live in Bookmarksgrove right at the coast</p>
+								<h3>Analytics</h3>
+								<p>Enjoy using big data to gain insights from simulation, optimization, ML, AI</p>
 							</div>
 						</div>
 					</div>
@@ -180,8 +220,8 @@
 						<div class="services">
 							<span class="icon"><i class="icon-photo"></i></span>
 							<div class="desc">
-								<h3>Digital Marketing</h3>
-								<p>Separated they live in Bookmarksgrove right at the coast</p>
+								<h3>UX Design</h3>
+								<p>Designing with humans in mind where simplicity is sophisticated </p>
 							</div>
 						</div>
 					</div>
@@ -189,84 +229,78 @@
 						<div class="services">
 							<span class="icon"><i class="icon-bulb"></i></span>
 							<div class="desc">
-								<h3>Web Strategy</h3>
-								<p>Separated they live in Bookmarksgrove right at the coast</p>
+								<h3>Innovation</h3>
+								<p>Always looking for new oppertunities to apply smarter solutions</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div id="colorlib-work">
+		<div id="colorlib-workexperience">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center animate-box intro-heading">
-						<h2>Our Works</h2>
+						<h2>Experience</h2>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-6 animate-box text-center">
-						<a href="work-single.html" class="work-img" style="background-image: url({% static 'images/work-1.jpg' %});">
+						<a href="/ibm" class="work-img" style="background-image: url({% static 'images/work-1.jpg' %});">
 							<div class="overlay"></div>
 							<div class="desc">
-								<span class="icon"><i class="icon-heart-outline"></i></span>
-								<p class="tag"><span>Illustration</span>, <span>Logo</span></p>
-								<h3>Work 01</h3>
+								<p class="tag"><span>Technical Analyst</span>, <span>2018-2019</span></p>
+								<h3>IBM Canada</h3>
+								<span class="read-more">Read more <i class="icon-arrow-down3"></i></span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 animate-box text-center">
+						<a href="/atomic" class="work-img" style="background-image: url({% static 'images/work-2.jpg' %});">
+							<div class="overlay"></div>
+							<div class="desc">
+								<p class="tag"><span>Founder, Consultant</span>, <span>2019-Present</span></p>
+								<h3>Atomictech.ca</h3>
 								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
 							</div>
 						</a>
 					</div>
 					<div class="col-md-6 animate-box text-center">
-						<a href="work-single.html" class="work-img" style="background-image: url({% static 'images/work-2.jpg' %});">
+						<a href="/csip" class="work-img" style="background-image: url({% static 'images/work-3.jpg' %});">
 							<div class="overlay"></div>
 							<div class="desc">
-								<span class="icon"><i class="icon-heart-outline"></i></span>
-								<p class="tag"><span>Web Design</span>, <span>UI</span></p>
-								<h3>Work 02</h3>
+								<p class="tag"><span>ML and UX Capstone Team Lead</span>, <span>2019-2020</span></p>
+								<h3>Canadian Sport Institute Pacific</h3>
 								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
 							</div>
 						</a>
 					</div>
 					<div class="col-md-6 animate-box text-center">
-						<a href="#" class="work-img" style="background-image: url({% static 'images/work-3.jpg' %});">
+						<a href="/soccer" class="work-img" style="background-image: url({% static 'images/work-4.jpg' %});">
 							<div class="overlay"></div>
 							<div class="desc">
-								<span class="icon"><i class="icon-heart-outline"></i></span>
-								<p class="tag"><span>Logo</span>, <span>Illustration</span></p>
-								<h3>Work 03</h3>
+								<p class="tag"><span>Player</span>, <span>2015-2020</span></p>
+								<h3>Varsity Blues Men's Soccer</h3>
 								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
 							</div>
 						</a>
 					</div>
 					<div class="col-md-6 animate-box text-center">
-						<a href="work-single.html" class="work-img" style="background-image: url({% static 'images/work-4.jpg' %});">
+						<a href="/centivizer" class="work-img" style="background-image: url({% static 'images/work-5.jpg' %});">
 							<div class="overlay"></div>
 							<div class="desc">
-								<span class="icon"><i class="icon-heart-outline"></i></span>
-								<p class="tag"><span>Apps</span>, <span>Brand Identity</span></p>
-								<h3>Work 04</h3>
+								<p class="tag"><span>Winner</span>, <span>2018</span></p>
+								<h3>Centivizer Hackathon</h3>
 								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
 							</div>
 						</a>
 					</div>
 					<div class="col-md-6 animate-box text-center">
-						<a href="work-single.html" class="work-img" style="background-image: url({% static 'images/work-5.jpg' %});">
+						<a href="/mentor" class="work-img" style="background-image: url({% static 'images/work-6.jpg' %});">
 							<div class="overlay"></div>
 							<div class="desc">
-								<span class="icon"><i class="icon-heart-outline"></i></span>
-								<p class="tag"><span>Brand Identity</span>, <span>Logo</span></p>
-								<h3>Work 05</h3>
-								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-6 animate-box text-center">
-						<a href="work-single.html" class="work-img" style="background-image: url({% static 'images/work-6.jpg' %});">
-							<div class="overlay"></div>
-							<div class="desc">
-								<span class="icon"><i class="icon-heart-outline"></i></span>
-								<p class="tag"><span>Brand Identity</span>, <span>Logo</span></p>
-								<h3>Work 06</h3>
+								<p class="tag"><span>Mentor</span>, <span>2017</span></p>
+								<h3>CSCHE Engineering Club</h3>
 								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
 							</div>
 						</a>
@@ -274,11 +308,113 @@
 				</div>
 			</div>
 		</div>
-		<div id="colorlib-blog">
+		<div id="colorlib-workux">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center animate-box intro-heading">
-						<h2>Blog</h2>
+						<h2>User Experience Portfolio</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 animate-box text-center">
+						<a href="/app" class="work-img" style="background-image: url({% static 'images/externaltools.png' %});">
+							<div class="overlay"></div>
+							<div class="desc">
+								<p class="tag"><span>Internal Support Application Founder</span></p>
+								<h3>IBM Canada</h3>
+								<span class="read-more">Read more <i class="icon-arrow-down3"></i></span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 animate-box text-center">
+						<a href="/raven" class="work-img" style="background-image: url({% static 'images/raven.png' %});">
+							<div class="overlay"></div>
+							<div class="desc">
+								<p class="tag"><span>UX Team Lead</span></p>
+								<h3>North American Internal <br>IBM Hackathon</h3>
+								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 animate-box text-center">
+						<a href="/etec" class="work-img" style="background-image: url({% static 'images/etec.png' %});">
+							<div class="overlay"></div>
+							<div class="desc">
+								<p class="tag"><span>Web App Consultant</span></p>
+								<h3>E-tec.ca</h3>
+								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 animate-box text-center">
+						<a href="/laneway" class="work-img" style="background-image: url({% static 'images/wall.png' %});">
+							<div class="overlay"></div>
+							<div class="desc">
+								<p class="tag"><span>Engineering Student Consultant</span></p>
+								<h3>The Palmerston Laneway Project</h3>
+								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="colorlib-workml">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center animate-box intro-heading">
+						<h2>Data Analytics Portfolio</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 animate-box text-center">
+						<a href="/snowboard" class="work-img" style="background-image: url({% static 'images/snowboarding.png' %});">
+							<div class="overlay"></div>
+							<div class="desc">
+								<p class="tag"><span>Python ML/AI Team Lead</span></p>
+								<h3>CSIP Freestyle Snowboarding Project</h3>
+								<span class="read-more">Read more <i class="icon-arrow-down3"></i></span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 animate-box text-center">
+						<a href="/taxi" class="work-img" style="background-image: url({% static 'images/network.png' %});">
+							<div class="overlay"></div>
+							<div class="desc">
+								<p class="tag"><span>Python ML and Optimization</span></p>
+								<h3>New York Taxi Project</h3>
+								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 animate-box text-center">
+						<a href="/finance" class="work-img" style="background-image: url({% static 'images/optimization.png' %});">
+							<div class="overlay"></div>
+							<div class="desc">
+								<p class="tag"><span>Python and Matlab Optimization, Simulation, ML/AI</span></p>
+								<h3>Financial Engineering Project</h3>
+								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 animate-box text-center">
+						<a href="/papers" class="work-img" style="background-image: url({% static 'images/papers.png' %});">
+							<div class="overlay"></div>
+							<div class="desc">
+								<p class="tag"><span>Matlab ML</span></p>
+								<h3>The Federalist Papers Project</h3>
+								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--div id="colorlib-blog">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center animate-box intro-heading">
+						<h2>University</h2>
 					</div>
 				</div>
 				<div class="row">
@@ -316,9 +452,9 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div-->
 
-		<div id="colorlib-counter" class="colorlib-counters">
+		<!--div id="colorlib-counter" class="colorlib-counters">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center animate-box intro-heading">
@@ -345,65 +481,14 @@
 					</div>
 				</div>
 			</div>
-		</div>
-
-		<div id="colorlib-testimony" class="colorlib-light-grey">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center animate-box intro-heading">
-						<h2>Our Client Says:</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<div class="row animate-box">
-							<div class="owl-carousel1">
-								<div class="item">
-									<div class="testimony-slide text-center active">
-										<figure>
-											<img src="{% static 'images/person1.jpg' %}" alt="user">
-										</figure>
-										<blockquote>
-											<p><i class="icon-quotes-left"></i> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-											<span>Andrew Field, Blogger</span>
-										</blockquote>
-									</div>
-								</div>
-								<div class="item">
-									<div class="testimony-slide text-center active">
-										<figure>
-											<img src="{% static 'images/person2.jpg' %}" alt="user">
-										</figure>
-										<blockquote>
-											<p><i class="icon-quotes-left"></i> Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-											<span>Mark Bubble, Web Designer</span>
-										</blockquote>
-									</div>
-								</div>
-								<div class="item">
-									<div class="testimony-slide text-center active">
-										<figure>
-											<img src="{% static 'images/person3.jpg' %}" alt="user">
-										</figure>
-										<blockquote>
-											<p><i class="icon-quotes-left"></i> Far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-											<span>Adam Smith, Guest</span>
-										</blockquote>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		</div-->
 
 		<div id="colorlib-hire">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box">
-						<h2 class="heading">Are you looking for a web designer?</h2>
-						<p><a href="#" class="btn btn-primary btn-lg">Available for Hire!</a></p>
+						<h2 class="heading">Are you looking to hire me?</h2>
+						<p><a href="https://drive.google.com/file/d/16S5cpeoykfh5jpc-JzyrP7ZEdAzbW8XG/view?usp=sharing" target="_blank" class="btn btn-primary btn-learn">View my resume</a></p>
 					</div>
 				</div>
 			</div>
@@ -416,14 +501,14 @@
 						<div class="col-md-4 col-pb-sm">
 							<div class="row">
 								<div class="col-md-10">
-									<h2>Suitcase</h2>
-									<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+									<h2>Stefan Dusciuc</h2>
+									<p>Thanks for visiting</p>
 									<div class="row">
 										<div class="col-md-6">
-											<p>From the countries Vokalia and Consonantia</p>
+											<p>This website was built and deployed by me using a free template</p>
 										</div>
 										<div class="col-md-6">
-											<p>Far far away, behind the word mountains</p>
+											<p>Toronto, Ontario</p>
 										</div>
 									</div>
 								</div>
@@ -431,7 +516,7 @@
 						</div>
 						<div class="col-md-4 col-pb-sm">
 							<h2>Newsletter</h2>
-							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia</p>
+							<p>Subscribe to future posts</p>
 							<div class="subscribe text-center">
 								<div class="form-group">
 									<input type="text" class="form-control text-center" placeholder="Enter Email address">
@@ -440,18 +525,15 @@
 							</div>
 						</div>
 						<div class="col-md-4 col-pb-sm right-display">
-							<h2>Follow Us</h2>
+							<h2>Connect</h2>
 							<p class="colorlib-social-icons colorlib-social-icons2">
-								<a href="#"><i class="icon-facebook4"></i></a>
-								<a href="#"><i class="icon-twitter3"></i></a>
-								<a href="#"><i class="icon-googleplus"></i></a>
-								<a href="#"><i class="icon-dribbble2"></i></a>
+								<a href="https://www.linkedin.com/in/stefan-dusciuc/" target="_blank"><i class="icon-linkedin4"></i></a>
 							</p>
 							<p>
 								<span class="block"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart2" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --><br></span> 
-								<span class="block">Demo Images: <a href="http://nothingtochance.co/" target="_blank">nothingtochance.co</a> <a href="http://unsplash.co/" target="_blank">Unsplash</a></span>
+								<span class="block">Some Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></span>
 							</p>
 						</div>
 					</div>

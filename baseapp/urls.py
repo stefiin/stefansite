@@ -15,8 +15,24 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from ui.views import index
+from ui.views import home, ibm, atomic, csip, soccer, centivizer, mentor, app, raven, etec, laneway, snowboard, taxi, finance, papers
+from django.views.generic import RedirectView
 urlpatterns = [
+    path('', RedirectView.as_view(url='/home/')),
     path('admin/', admin.site.urls),
-    path('index/', index, name='index'),
+    path('home/', home, name='home'),
+    path('ibm/', ibm, name='ibm'),
+    path('atomic/', atomic, name='atomic'),
+    path('csip/', csip, name='csip'),
+    path('soccer/', soccer, name='soccer'),
+    path('centivizer/', centivizer, name='centivizer'),
+    path('mentor/', mentor, name='mentor'),
+    path('app/', app, name='app'),
+    path('raven/', raven, name='raven'),
+    path('etec/', etec, name='etec'),
+    path('laneway/', laneway, name='laneway'),
+    path('snowboard/', snowboard, name='snowboard'),
+    path('taxi/', taxi, name='taxi'),
+    path('finance/', finance, name='finance'),
+    path('papers/', papers, name='papers'),
 ]
